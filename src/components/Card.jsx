@@ -8,15 +8,15 @@ export default function Card({ projects }) {
         <div className="row">
             {projects.map((project) => (
                 <div className="card text-center justify-content-center m-2" style={cardStyling} key={project.title}>
-                    <img src="#" className="card-img-top" alt={project.title} />
+                    <img src={project.picLink} className="card-img-top w-25" alt={project.title} />
                     <div className="card-body">
                         <h5 className="card-title">{project.title}</h5>
                         <ul className="list-group list-group-horizontal">
                             <li className="list-group-item">
-                                <a href="#">{project.ghLink}</a>
+                                <a href={project.ghLink}>{project.title} Github</a>
                             </li>
                             <li className="list-group-item">
-                                <a href="#">{project.appLink}</a>
+                                <a href={project.appLink}>{project.title} Site</a>
                             </li>
                         </ul>
                     </div>
