@@ -2,7 +2,7 @@ export default function Nav(props) {
     console.log(props);
     return (
         <nav className="main-header-menu">
-            <ul className="nav">
+            <ul className="nav nav-tabs">
                 <li className="nav-item">
                     <a className="nav-link active" aria-current="page" href="#">About Me</a>
                 </li>
