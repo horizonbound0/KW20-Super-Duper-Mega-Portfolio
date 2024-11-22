@@ -1,7 +1,7 @@
 export default function ContactMe(props) {
     console.log(props);
     return (
-        <div className="border container">
+        <div className="container">
             <h1>Contact Me</h1>
             <form action="#" className="needs-validation ">
 

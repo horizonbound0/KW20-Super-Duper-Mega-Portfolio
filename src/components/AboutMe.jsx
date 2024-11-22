@@ -6,7 +6,7 @@ export default function AboutMe(props) {
         }
     }
     return (
-        <div className="border media container mx-auto my-2">
+        <div className="media container mx-auto my-2">
             <div className="row p-2">
                 <img style={styles.image} src="./assets/profilePic.jpg" alt="Ken Wagner" className="#" />
                 <div className="col">

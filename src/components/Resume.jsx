@@ -26,7 +26,7 @@ export default function Resume(props) {
 
     ]
     return (
-        <div className="border  mx-auto my-2 container">
+        <div className="mx-auto my-2 container">
             <h1>Resume</h1>
             <div>
                 <p>Technical Skills</p>
