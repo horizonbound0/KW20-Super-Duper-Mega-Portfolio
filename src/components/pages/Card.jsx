@@ -18,9 +18,7 @@ export default function Card({ projects }) {
                             <a className="btn btn-dark card-link col" href={project.ghLink}>{project.title} Github</a>
 
                             <a className="btn btn-dark card-link col" href={project.appLink}>{project.title} Site</a>
-                        </div>
-
-                        
+                        </div>                        
 
                     </div>
 

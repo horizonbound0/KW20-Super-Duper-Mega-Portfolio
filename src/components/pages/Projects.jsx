@@ -1,6 +1,6 @@
 import Card from './Card';
 
-export default function ProjectCards() {
+export default function Projects() {
     
     const projects = [
         {
