@@ -1,5 +1,4 @@
 export default function ContactMe(props) {
-    console.log(props);
     return (
         <div className="container">
             <h1>Contact Me</h1>

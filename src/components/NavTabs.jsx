@@ -1,4 +1,4 @@
-function NavTabs({ currentPage, handlePageChange }) {
+function NavTabs({ currentPage, handlePageChange, handleDarkMode }) {
     return (
         <ul className="nav nav-tabs">
             <li className="nav-item">
@@ -20,6 +20,11 @@ function NavTabs({ currentPage, handlePageChange }) {
                 <a href="#resume"
                 onClick={() => {handlePageChange('Resume')}}
                 className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>Resume</a>
+            </li>
+            <li className="border rounded border-dark">
+                <a href="#darkMode"
+                onClick={() => {handleDarkMode()}}
+                className={currentPage === 'Dark' ? 'nav-link active' : 'nav-link'}>Dark Mode</a>
             </li>
         </ul>
     )

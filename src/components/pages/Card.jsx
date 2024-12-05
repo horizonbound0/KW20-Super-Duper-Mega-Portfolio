@@ -15,9 +15,9 @@ export default function Card({ projects }) {
                         <p className="card-text">{project.desc}</p>
 
                         <div className="row">
-                            <a className="btn btn-dark card-link col" href={project.ghLink}>{project.title} Github</a>
+                            <a className="btn card-link col" href={project.ghLink}>{project.title} Github</a>
 
-                            <a className="btn btn-dark card-link col" href={project.appLink}>{project.title} Site</a>
+                            <a className="btn card-link col" href={project.appLink}>{project.title} Site</a>
                         </div>                        
 
                     </div>
