@@ -1,0 +1,40 @@
+:root {
+    --primary-color: #4169E1;
+    --accent-color: #FF6F61;
+    --neutral-light: #E9ECEF;
+    --neutral-dark: #333333;
+    --secondary-accent: #DAA520;
+
+    --dark-background: #333;
+    --dark-neutral-light: #D1D5DB;
+    --dark-background-highlight: #1E1E2E;
+    --hover-primary-color: #4682FF;
+    --shadow-glow: #3A7BF6;
+}
+
+* {
+    background-color: var(--neutral-light);
+    color: var(--neutral-dark);
+}
+
+.dark {
+    background-color: var(--dark-background);
+    color: var(--dark-neutral-light);
+}
+
+.light {
+    background-color: var(--neutral-light);
+    color: var(--neutral-dark);
+}
+
+.btn {
+    background-color: var(--secondary-accent);
+}
+
+.nav-item > a {
+    color: var(--secondary-accent);
+}
+
+.link-underline {
+    color: var(--accent-color);
+}
