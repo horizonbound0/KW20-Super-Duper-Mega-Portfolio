@@ -1,13 +1,9 @@
-import Nav from './Nav';
+import NavTabs from './NavTabs';
 
-export default function Header(props) {
-    console.log(props);
+export default function Header() {
     return (
         <header className='#'>
-            <h1 className='display-3'>Kenneth Wagner, Developer</h1>
-            <div className='justify-content-right'>
-                <Nav />
-            </div>
+            <h1 className='#'>Kenneth Wagner, Developer</h1>
         </header>
     );
 }
