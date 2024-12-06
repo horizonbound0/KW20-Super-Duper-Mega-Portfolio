@@ -53,15 +53,15 @@ export default function Resume(props) {
         },
     ]
     return (
-        <div className="mx-auto my-2 container">
+        <div className="mx-auto section border-custom my-2 container">
             <h1>Resume</h1>
-            <div className='container resume-section border-custom'>
+            <div className='container section border-custom'>
                 <h3>Summary</h3>
                 <p>
                     Full-Stack Web Developer, with a background in IT Support and Video Game Design. I graduated from Full Sail University with a Bachelor of Science in Video Game Design, and a certificate for full stack web development from the University of Texas, Austin. Creative and dedicated problem solver with a love of developing and improving useful apps with clean and extendible code. 
                 </p>
             </div>
-            <div className='container resume-section border-custom'>
+            <div className='container section border-custom'>
                 <h3>Technical Skills</h3>
                 <ul>
                     {skills.map((skill) => (
@@ -69,7 +69,7 @@ export default function Resume(props) {
                     ))}
                 </ul>
             </div>
-            <div className='container resume-section border-custom'>
+            <div className='container section border-custom'>
                 <h3>Projects</h3>
                 <ul>
                     <li><a href="https://github.com/Lixiviate/P2-Book-Nest" className="link-underline link-underline-opacity-0">BookNest</a></li>
@@ -77,11 +77,11 @@ export default function Resume(props) {
                     <li><a href="https://github.com/nearias3/Wizard-s-Apprentice" className="link-underline link-underline-opacity-0">Wizard's Apprentice: Pieces of the Master</a></li>
                 </ul>
             </div>
-            <div className='container resume-section border-custom'>
+            <div className='container section border-custom'>
                 <h3>Work Experience</h3>
                 <WorkCard works={works} />
             </div>
-            <div className='container resume-section border-custom'>
+            <div className='container section border-custom'>
                 <h3>Education</h3>
                 <ul>
                     <li>Full Sail University - Bachelor of Science in Game Design - Class 2016</li>

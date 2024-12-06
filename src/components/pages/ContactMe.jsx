@@ -1,8 +1,8 @@
 export default function ContactMe(props) {
     return (
-        <div className="container border-custom">
+        <div className="container section border-custom my-2">
             <h1>Contact Me</h1>
-            <form action="#" className="needs-validation ">
+            <form action="#" className="needs-validation">
 
                 <div className="form-row row">
 
