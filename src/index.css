@@ -12,23 +12,47 @@
     --shadow-glow: #3A7BF6;
 }
 
-* {
-    background-color: var(--neutral-light);
-    color: var(--neutral-dark);
+body {
+    background-image: url("./assets/coding_background.jpg");
+    background-size: cover;
+    background-position: center top;
+}
+
+.border-custom {
+    border: ridge 5px var(--primary-color);
+    border-radius: 5px;
 }
 
 .dark {
     background-color: var(--dark-background);
+    opacity: .8;
     color: var(--dark-neutral-light);
+}
+
+.dark h1, .dark h2, .dark h3, .dark p, .dark div {
+    
+    text-shadow: 2px 2px 3px var(--dark-background-highlight);
 }
 
 .light {
     background-color: var(--neutral-light);
+    opacity: .8;
     color: var(--neutral-dark);
 }
 
+.light h1, .light h2, .light h3, .light p {
+    
+    text-shadow: 2px 2px 8px var(--shadow-glow);
+}
+
 .btn {
-    background-color: var(--secondary-accent);
+    background-color: var(--primary-color);
+    font-weight: bold;
+    margin: 5px;
+}
+
+.resume-section {
+    margin: 1px;
 }
 
 .nav-item > a {
@@ -37,4 +61,17 @@
 
 .link-underline {
     color: var(--accent-color);
+}
+
+.card {
+    background-color: var(--primary-color);
+    box-shadow: 5px 5px 5px var(--shadow-glow);
+}
+
+.card .card-link {
+    background-color: var(--dark-neutral-light);
+}
+
+h1, h2, h3 {
+    color: var(--primary-color);
 }

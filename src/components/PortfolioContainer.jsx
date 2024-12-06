@@ -41,10 +41,10 @@ export default function PortfolioContainer() {
   }
 
   return (
-    <div>
+    <div className={darkMode === true ? 'dark' : 'light'}>
       <Header />
       {/* We are passing the currentPage from state and the function to update it */}
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} handleDarkMode={darkOrLight} />
+      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} darkMode={darkMode} handleDarkMode={darkOrLight} />
       {/* Here we are calling the renderPage method which will return a component  */}
       <main className="mx-3">{renderPage()}</main>
       <Footer />

@@ -4,7 +4,7 @@ export default function Card({ works }) {
         <div className="row justify-content-center">
 
             {works.map((work) => (
-                <div className="card bg-dark text-center p-2 m-2 col" key={work.title}>
+                <div className="card text-center p-2 m-2 col" key={work.title}>
 
                     <div className="card-body">
 
@@ -12,7 +12,7 @@ export default function Card({ works }) {
                         <ul>
                             <li>from {work.dates}</li>
                         </ul>
-                        <p className="card-text border">{work.desc}</p>                       
+                        <p className="card-text">{work.desc}</p>                       
 
                     </div>
 

@@ -4,7 +4,7 @@ export default function Card({ projects }) {
         <div className="row justify-content-center">
 
             {projects.map((project) => (
-                <div className="card bg-secondary text-center p-2 m-2 col" key={project.title}>
+                <div className="cardhp image assis text-center p-2 m-2 col border-custom" key={project.title}>
 
                     <img src={project.picLink} className="card-img-top" alt={project.title} />
 
@@ -15,9 +15,9 @@ export default function Card({ projects }) {
                         <p className="card-text">{project.desc}</p>
 
                         <div className="row">
-                            <a className="btn card-link col" href={project.ghLink}>{project.title} Github</a>
+                            <a className="btn col border-custom" href={project.ghLink}>{project.title} Github</a>
 
-                            <a className="btn card-link col" href={project.appLink}>{project.title} Site</a>
+                            <a className="btn col border-custom" href={project.appLink}>{project.title} Site</a>
                         </div>                        
 
                     </div>
