@@ -52,6 +52,10 @@ body {
     margin: 5px;
 }
 
+.btn-border {
+    border: ridge 2px var(--primary-color);    
+}
+
 .resume-section {
     margin: 1px;
 }

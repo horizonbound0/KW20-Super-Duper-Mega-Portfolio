@@ -22,7 +22,7 @@ function NavTabs({ currentPage, handlePageChange, darkMode, handleDarkMode }) {
                 className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>Resume</a>
             </li>
             <li>
-                <button onClick={() => {handleDarkMode()}} className="btn section">
+                <button onClick={() => {handleDarkMode()}} className="btn btn-border section">
                     {darkMode === false ? '🌜' : '🌞' }
                 </button>
             </li>
