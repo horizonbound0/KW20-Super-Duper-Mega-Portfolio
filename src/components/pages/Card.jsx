@@ -4,9 +4,9 @@ export default function Card({ projects }) {
         <div className="row justify-content-center">
 
             {projects.map((project) => (
-                <div className="cardhp image assis text-center p-2 m-2 col border-custom" key={project.title}>
+                <div className="card text-center p-2 m-2 col border-custom" key={project.title}>
 
-                    <img src={project.picLink} className="card-img-top" alt={project.title} />
+                    <img className="card-img-top" src={project.picLink} alt={project.title} />
 
                     <div className="card-body">
 

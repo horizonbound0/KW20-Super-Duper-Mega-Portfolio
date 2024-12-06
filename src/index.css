@@ -14,7 +14,7 @@
 
 body {
     background-image: url("./assets/coding_background.jpg");
-    background-size: cover;
+    background-size: 100%;
     background-position: center top;
 }
 
@@ -23,40 +23,50 @@ body {
     border-radius: 5px;
 }
 
-.dark {
+.dark .card, .dark .section {
     background-color: var(--dark-background);
-    opacity: .8;
+    opacity: .9;
     color: var(--dark-neutral-light);
 }
-
-.dark h1, .dark h2, .dark h3, .dark p, .dark div {
+/**/
+.dark h1, .dark h2, .dark h3, .dark p, .dark header {
     
-    text-shadow: 2px 2px 3px var(--dark-background-highlight);
+    text-shadow: 2px 2px 5px var(--dark-background-highlight);
 }
 
-.light {
+.light .card, .light .section {
     background-color: var(--neutral-light);
-    opacity: .8;
-    color: var(--neutral-dark);
+    opacity: .9;
+    color: var(--dark-background-highlight);
 }
-
-.light h1, .light h2, .light h3, .light p {
+/**/
+.light h1, .light h2, .light h3 {
     
-    text-shadow: 2px 2px 8px var(--shadow-glow);
+    text-shadow: 2px 2px 5px var(--shadow-glow);
 }
 
 .btn {
+    text-anchor: middle;
     background-color: var(--primary-color);
     font-weight: bold;
     margin: 5px;
+}
+
+.btn-border {
+    border: ridge 2px var(--primary-color);    
 }
 
 .resume-section {
     margin: 1px;
 }
 
-.nav-item > a {
+.nav-item a {
     color: var(--secondary-accent);
+}
+
+.nav-tabs {
+    border-color:var(--neutral-dark);
+    padding-bottom: 0;
 }
 
 .link-underline {
@@ -65,7 +75,7 @@ body {
 
 .card {
     background-color: var(--primary-color);
-    box-shadow: 5px 5px 5px var(--shadow-glow);
+    box-shadow: 1px 5px 15px var(--shadow-glow);
 }
 
 .card .card-link {

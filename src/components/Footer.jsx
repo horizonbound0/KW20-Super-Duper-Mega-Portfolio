@@ -1,6 +1,6 @@
 export default function Footer(props) {
     return (
-        <div className="text-center">
+        <div className="text-center section border-custom">
             <p>Thanks for stopping by!
                 <div></div>
                 <a href="https://github.com/horizonbound0" className="link-underline link-underline-opacity-0">GitHub</a> 🔹 

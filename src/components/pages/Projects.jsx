@@ -27,7 +27,7 @@ export default function Projects() {
     ]
 
     return (
-        <div className="container  mx-auto my-2">
+        <div className="container section border-custom mx-auto my-2">
             <h1>Projects</h1>
             <div>
                 <Card projects={ projects} />
